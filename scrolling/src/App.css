@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -39,4 +39,13 @@
 
 button {
   font-size: calc(10px + 2vmin);
+} */
+
+.container{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1,100px);
 }
